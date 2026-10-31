@@ -1,0 +1,101 @@
+{
+  "nome": "Gadget Bortone",
+  "slogan": "Gadgets gamer com preço bom e loja confiável",
+  "descricao": "Vitrine de gadgets para games: controles, headsets, teclados, mouses, monitores e mais. Ofertas do Mercado Livre de lojas confiáveis.",
+  "url_site": "https://achadosbortone.github.io/gadget-bortone/",
+  "instagram": "",
+  "itens_por_categoria": 5,
+  "rodizio": true,
+  "mostrar_avatar": true,
+  "excluir_global": [
+    "usado", "usada", "seminovo", "seminova", "vitrine", "defeito", "retirada de pecas", "sucata",
+    "gift card", "cartao presente", "cartão presente", "codigo", "código", "conta ", "psn plus", "xbox live", "game pass",
+    "jogo fisico", "jogo físico", "midia fisica", "mídia física", "replica", "réplica", "paralelo", "falsificado",
+    "capinha", "capa silicone", "pelicula", "película", "adesivo", "skin adesiva", "brinquedo", "miniatura"
+  ],
+  "marcas_premium": [
+    "logitech", "razer", "hyperx", "redragon", "corsair", "steelseries", "sony", "microsoft", "nintendo",
+    "asus", "rog", "msi", "samsung", "lg", "aoc", "gigabyte", "benq", "elgato", "blue", "fifine", "jbl",
+    "kingston", "wd", "western digital", "seagate", "sandisk", "crucial", "dxracer", "thunderx3", "cooler master",
+    "xpg", "fantech", "multilaser gamer", "geonav", "8bitdo", "hp", "dell", "philips"
+  ],
+  "categorias": [
+    {
+      "id": "controles", "nome": "Controles", "emoji": "🎮",
+      "queries": ["controle dualsense ps5", "controle xbox series sem fio", "controle gamer sem fio pc", "controle 8bitdo", "controle nintendo switch pro"],
+      "exigir_palavras": ["controle", "gamepad", "joystick", "dualsense", "dualshock"],
+      "excluir": ["suporte", "grip", "case", "carregador", "base", "silicone", "protetor"],
+      "preco_min": 120
+    },
+    {
+      "id": "headsets", "nome": "Headsets", "emoji": "🎧",
+      "queries": ["headset gamer hyperx", "headset gamer logitech", "headset gamer redragon", "headset gamer razer", "headset sem fio gamer"],
+      "exigir_palavras": ["headset", "fone gamer", "headphone gamer"],
+      "excluir": ["suporte", "almofada", "espuma", "capa", "adaptador", "cabo"],
+      "preco_min": 90
+    },
+    {
+      "id": "teclados", "nome": "Teclados", "emoji": "⌨️",
+      "queries": ["teclado mecanico gamer redragon", "teclado gamer logitech", "teclado mecanico razer", "teclado gamer hyperx", "teclado mecanico 60%"],
+      "exigir_palavras": ["teclado"],
+      "excluir": ["keycap", "capas de tecla", "protetor", "descanso", "pulso", "switch avulso", "kit de teclas"],
+      "preco_min": 90
+    },
+    {
+      "id": "mouses", "nome": "Mouses", "emoji": "🖱️",
+      "queries": ["mouse gamer logitech", "mouse gamer razer", "mouse gamer redragon", "mouse gamer sem fio", "mouse gamer hyperx"],
+      "exigir_palavras": ["mouse"],
+      "excluir": ["mousepad", "mouse pad", "pe de mouse", "skates", "grip", "fita", "suporte"],
+      "preco_min": 60
+    },
+    {
+      "id": "mousepads", "nome": "Mousepads", "emoji": "🟪",
+      "queries": ["mousepad gamer grande", "mousepad speed steelseries", "mousepad razer", "mousepad rgb"],
+      "exigir_palavras": ["mousepad", "mouse pad"],
+      "excluir": ["descanso de pulso"],
+      "preco_min": 35
+    },
+    {
+      "id": "monitores", "nome": "Monitores", "emoji": "🖥️",
+      "queries": ["monitor gamer 144hz", "monitor gamer 165hz", "monitor gamer 27 polegadas", "monitor gamer curvo", "monitor gamer 240hz"],
+      "exigir_palavras": ["monitor"],
+      "excluir": ["suporte", "braco", "braço", "pelicula", "película", "cabo", "tv ", "smart tv"],
+      "preco_min": 500
+    },
+    {
+      "id": "cadeiras", "nome": "Cadeiras gamer", "emoji": "💺",
+      "queries": ["cadeira gamer dxracer", "cadeira gamer thunderx3", "cadeira gamer cooler master", "cadeira gamer reclinavel"],
+      "exigir_palavras": ["cadeira"],
+      "excluir": ["capa", "almofada", "rodinha", "rodízio", "pistao", "pistão", "braco avulso", "infantil"],
+      "preco_min": 450
+    },
+    {
+      "id": "stream", "nome": "Stream e captura", "emoji": "🎙️",
+      "queries": ["placa de captura elgato", "placa de captura hdmi 4k", "microfone gamer streaming", "microfone usb fifine", "webcam full hd stream", "microfone hyperx quadcast"],
+      "exigir_palavras": ["captura", "microfone", "webcam", "stream"],
+      "excluir": ["suporte", "braco", "braço", "pop filter", "espuma", "tripe", "tripé", "lapela"],
+      "preco_min": 80
+    },
+    {
+      "id": "consoles", "nome": "Consoles e acessórios", "emoji": "🕹️",
+      "queries": ["console playstation 5", "console xbox series s", "nintendo switch oled", "base carregadora controle ps5", "controle charging station xbox"],
+      "exigir_palavras": ["console", "playstation", "xbox", "nintendo", "switch", "ps5", "base carregadora"],
+      "excluir": ["jogo", "game ", "midia", "mídia", "capinha", "case", "pelicula", "película", "skin", "adesivo", "suporte"],
+      "preco_min": 90
+    },
+    {
+      "id": "armazenamento", "nome": "SSD e armazenamento", "emoji": "💾",
+      "queries": ["ssd nvme 1tb", "ssd nvme ps5 heatsink", "ssd sata 480gb", "cartao microsd switch 256gb", "hd externo 2tb"],
+      "exigir_palavras": ["ssd", "nvme", "microsd", "hd externo", "cartao de memoria", "cartão de memória"],
+      "excluir": ["gabinete", "case", "adaptador", "leitor", "cabo", "suporte"],
+      "preco_min": 80
+    },
+    {
+      "id": "rgb", "nome": "Iluminação RGB", "emoji": "💡",
+      "queries": ["fita led rgb gamer setup", "painel led rgb parede gamer", "lightbar monitor", "barra led rgb setup", "luminaria gamer rgb"],
+      "exigir_palavras": ["led", "rgb", "lightbar", "luminaria", "luminária", "nanoleaf"],
+      "excluir": ["natal", "pisca", "lampada de emergencia", "lâmpada de emergência", "carro", "moto"],
+      "preco_min": 30
+    }
+  ]
+}
